@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:note_app/core/utils/fonts.dart';
-import 'package:note_app/views/notes_view/widget/app_bar_search_button.dart';
+import 'package:note_app/views/notes_view/widget/app_bar_component/app_bar_search_button.dart';
 
 class NotesViewAppBar extends StatelessWidget {
   const NotesViewAppBar({super.key});
@@ -10,7 +10,7 @@ class NotesViewAppBar extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text("Notes", style: AppFonts.poppins(25)),
+        Text("Notes", style: AppFonts.poppins(fontSize: 25)),
         AppBarSearchButton(),
       ],
     );
