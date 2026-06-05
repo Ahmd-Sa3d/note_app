@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:note_app/core/utils/colors.dart';
-import 'package:note_app/views/notes_view/widget/add_bottom_sheet.dart';
+import 'package:note_app/views/notes_view/widget/bottom_sheet_compo/add_bottom_sheet.dart';
 import 'package:note_app/views/notes_view/widget/app_bar_component/Notes_View_app_bar.dart';
 import 'package:note_app/views/notes_view/widget/notes_list_view.dart';
 
