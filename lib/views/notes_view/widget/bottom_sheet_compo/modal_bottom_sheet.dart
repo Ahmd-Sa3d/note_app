@@ -9,14 +9,15 @@ class ModalBottomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        BottomSheetTextField(),
-        Spacer(),
-        AddButtonBottomSheet(),
-        SizedBox(height: 15.h,)
-
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          BottomSheetTextField(),
+          SizedBox(height: 15.h),
+          AddButtonBottomSheet(),
+          SizedBox(height: 15.h),
+        ],
+      ),
     );
   }
 }
