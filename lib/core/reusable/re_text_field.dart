@@ -1,6 +1,4 @@
-import 'dart:ffi';
 
-import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import '../utils/colors.dart';
@@ -23,7 +21,10 @@ class ReTextField extends StatelessWidget {
       textAlign: TextAlign.left,
       textAlignVertical: TextAlignVertical.center,
       decoration: InputDecoration(
-        contentPadding: EdgeInsets.symmetric(vertical:verticalPadding , horizontal: horizontalPadding),
+        contentPadding: EdgeInsets.symmetric(
+          vertical: verticalPadding,
+          horizontal: horizontalPadding,
+        ),
         alignLabelWithHint: true,
         hintText: hintText,
         hintStyle: TextStyle(color: AppColors.teal, fontSize: 20),
