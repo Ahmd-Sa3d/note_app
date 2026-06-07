@@ -14,7 +14,23 @@ class EditNoteView extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.0.w),
           child: Column(
-            children: [ReNotesAppBar(title: 'Edit Note', icon: Icons.check)],
+            children: [
+              ReNotesAppBar(title: 'Edit Note', icon: Icons.check),
+              SizedBox(height: 30.h),
+              ReTextField(
+                hintText: 'title',
+                verticalPadding: 15.h,
+                horizontalPadding: 20.w,
+              ),
+
+              SizedBox(height: 30.h),
+
+              ReTextField(
+                hintText: 'title',
+                verticalPadding: 50.h,
+                horizontalPadding: 20.w,
+              ),
+            ],
           ),
         ),
       ),
