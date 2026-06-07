@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:note_app/core/utils/colors.dart';
 import 'package:note_app/views/notes_view/widget/bottom_sheet_compo/modal_bottom_sheet.dart';
-import 'package:note_app/core/reusable/re_Notes_app_bar.dart';
+import 'package:note_app/core/reusable/re_notes_app_bar.dart';
 import 'package:note_app/views/notes_view/widget/notes_list_view.dart';
 
 class NotesView extends StatelessWidget {

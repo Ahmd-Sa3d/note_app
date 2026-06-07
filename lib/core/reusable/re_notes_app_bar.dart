@@ -5,7 +5,7 @@ import 'package:note_app/views/notes_view/widget/app_bar_component/app_bar_searc
 class ReNotesAppBar extends StatelessWidget {
   const ReNotesAppBar({super.key, required this.title, required this.icon});
 
-  final String title;
+  final  String title;
   final IconData icon;
 
   @override

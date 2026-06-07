@@ -3,6 +3,7 @@ import 'package:note_app/core/utils/colors.dart';
 
 class AppBarSearchButton extends StatelessWidget {
   const AppBarSearchButton({super.key, required this.icon});
+
 final IconData icon;
 
   @override
