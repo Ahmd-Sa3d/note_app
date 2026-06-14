@@ -3,12 +3,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:note_app/core/utils/colors.dart';
 
 class AddButtonBottomSheet extends StatelessWidget {
-  const AddButtonBottomSheet({super.key});
+  const AddButtonBottomSheet({super.key,required this.onTap});
+
+  final void Function()? onTap;
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: onTap,
       child: Container(
         alignment: Alignment.center,
         width: 100.sw,

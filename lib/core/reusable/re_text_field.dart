@@ -8,16 +8,25 @@ class ReTextField extends StatelessWidget {
     super.key,
     required this.hintText,
     required this.verticalPadding,
-    required this.horizontalPadding,
+    required this.horizontalPadding, this.onSaved,
   });
 
   final String hintText;
   final double verticalPadding;
   final double horizontalPadding;
+  final String? Function(String?)? onSaved;
+
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
+    return TextFormField(
+      onSaved: onSaved ,
+      validator: (value) {
+        if (value?.isEmpty ?? true){
+          return 'This field is required';
+        }
+        return null;
+      },
       textAlign: TextAlign.left,
       textAlignVertical: TextAlignVertical.center,
       decoration: InputDecoration(
