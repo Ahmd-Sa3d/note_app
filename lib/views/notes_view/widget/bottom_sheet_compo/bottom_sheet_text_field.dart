@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 
 import '../../../../core/reusable/re_text_field.dart';
 
@@ -24,7 +24,7 @@ class _BottomSheetTextFieldState extends State<BottomSheetTextField> {
       children: [
         SizedBox(height: 40),
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20.0.w),
+          padding: EdgeInsets.symmetric(horizontal: 20.w),
           child: ReTextField(
 
             onSaved: (value) {

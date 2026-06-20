@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:note_app/models/note_model.dart';
 import 'package:note_app/services/cubits/add_notes_cubit.dart';
@@ -19,7 +19,7 @@ class NotesApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ScreenUtilInit(
+    return ScreenUtilPlusInit(
       designSize: const Size(360, 690),
       minTextAdapt: true,
       splitScreenMode: true,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_screenutil_plus/flutter_screenutil_plus.dart';
 import 'package:note_app/core/reusable/re_notes_app_bar.dart';
 import 'package:note_app/core/reusable/re_text_field.dart';
 
